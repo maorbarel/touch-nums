@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<h2>play time!</h2>
+<h3>choose a difficulty level, and start playing! </h3>
+<head>
+    <meta charset="UTF-8">
+    <title>touch-nums</title>
+    <link rel="stylesheet" href="css/touch-nums.css">
+
+</head>
+
+<body>
+<h4>the goal? click on the numbers showing on the board acording to their order, 1,2, and so on.</h4>
+<h5>winner gets a free "metargel" for the weekend, just take your pick!</h5>
+<div class="timer">timer</div>
+    <table border="1" cellpadding="25">
+            <tbody class="board"></tbody>
+        </table>
+        <div class="nextNumber hide">next number is:0</div>
+
+<div class="buttons">
+    
+    <button class="hard" onclick="  makeNumsArray(36)">hard</button>
+    <button class="mid" onclick="  makeNumsArray(25)">mid</button>
+    <button class="easy" onclick="  makeNumsArray(16)">easy</button>
+</div>
+    <script src="js/touch-nums.js"></script>
+</body>
+
+</html>
