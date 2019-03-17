@@ -4,9 +4,12 @@
 
 var gStartTimer = 0;
 var gTimer = 0;
+var gCounter = 0;
+
 var gGameLevel = 0;
 var gNums = []
-var gCounter = 0;
+
+
 var gTimeInterval;
 
 
